@@ -22,3 +22,8 @@ $ apt-get install curl -y
 ```bash
 $ curl https://omnitruck.chef.io/install.sh | bash -s -- -P chefdk -c stable -v 2.5.3
 ```
+
+### Install vim
+```bash
+$ apt-get install vim -y
+```
