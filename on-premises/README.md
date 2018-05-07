@@ -24,3 +24,10 @@ $ chef-server-ctl org-create short_name 'full_organization_name' --association_u
 For example:
 $ chef-server-ctl org-create 4thcoffee 'Fourth Coffee, Inc.' --association_user stevedanno --filename /path/to/4thcoffee-validator.pem
 ```
+
+## Install client
+
+### Install chef client via command line
+```bash
+$ curl -L https://omnitruck.chef.io/install.sh | sudo bash
+```
